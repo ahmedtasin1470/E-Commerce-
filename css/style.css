@@ -382,7 +382,7 @@ footer .copyright a:hover{
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 671px){
     #feutured .row{
         display: grid;
         grid-template-rows: 1fr;
