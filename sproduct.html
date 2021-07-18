@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    
+    <script>
+        $(function(){
+            $(".navbar-toggler").click(function(){
+                $(".collapse").collapse('toggle')
+            })
+        });
+    </script>
+
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo1.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span> <i id="bar" class="fas fa-bars"></i> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact US</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-bag"></i>
+              </li>
+              
+          </div>
+        </div>
+      </nav>
+
+      <section style="margin-top: 5rem !important;" class="sproduct my-5 container pt-5">
+          <div class="row mt-5">
+              <div class="col-lg-6 col-md-12 col-12">
+                  <img id="imgGalllery" class="img-fluid w-100 pb-2" src="img/shop/1.jpg" alt="">
+
+                  <div class="small-img-group d-flex justify-content-between">
+                      <div class="small-img-col">
+                        <img src="img/shop/1.jpg"  class="img-fluid small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="img/shop/24.jpg"  class="img-fluid small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="img/shop/25.jpg"  class="img-fluid small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="img/shop/26.jpg"  class="img-fluid small-img">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-12">
+                  <h6>Home ? T-Shirt</h6>
+                  <h3>Men's Fashion T Shirt</h3>
+                  <h2 class="font-bold">TK : 330</h2>
+                  <select class="my-3">
+                    <option>Select Size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Large</option>
+                  </select>
+                  <input type="number" value="1">
+                  <button class="buy-btn buy-btn-s">Add To Cart</button>
+                  <h4 class="mb-5 mt-5">Product Details</h4>
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quia vel, molestias quasi alias aspernatur sequi magni eum aliquid enim perferendis labore adipisci, error impedit asperiores aperiam? Cupiditate, mollitia accusantium quibusdam suscipit ullam eum a obcaecati necessitatibus quidem quis impedit nobis quos ut, modi nulla atque doloribus. Voluptatem consectetur sint odit est tempora maiores totam. Vel sapiente adipisci excepturi aperiam.</span>
+              </div>
+          </div>
+      </section>
+
+      <section id="feutured" class="my-5 pb-5">
+        <div class="container text-center mt-5 p-5">
+            <h3 class="line">Related Product</h3>
+        </div>
+        <div class="row mx-0 container-fluid">
+            <div class="product m-0 p-0 text-center col-lg-3 col-md-4 col-sm-12 mb-3">
+                <img class="mb-3" src="img/featured/1.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Men's Casual Shoe</h5>
+                <h4 class="p-price">TK : 990</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product m-0 p-0 text-center col-lg-3 col-md-4 col-sm-12 mb-3">
+                <img class="mb-3" src="img/featured/2.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Men's Casual Shoe</h5>
+                <h4 class="p-price">TK : 570</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product m-0 p-0 text-center col-lg-3 col-md-4 col-sm-12 mb-3">
+                <img class="mb-3" src="img/featured/3.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">School Bag</h5>
+                <h4 class="p-price">TK : 780</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product m-0 text-center col-lg-3 col-md-4 col-sm-12 mb-3">
+                <img class="mb-3" src="img/featured/4.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Women's Cap</h5>
+                <h4 class="p-price">TK : 330</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="mt-5 py-5">
+        <div class="container">
+            <div class="pt-5 row">
+                <div class="footer-one col-lg-3 col-md-4 col-sm-12 mb-3 col-6">
+                  <img src="img/logo2.png" alt="">
+                  <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero mollitia nobis minima quia excepturi maxime aut eos! Illum, beatae fuga!</p>
+                </div>
+                <div class="footer-one col-lg-3 col-md-4 col-sm-12 mb-3 col-6">
+                  <h5 class="pb-2">Featured</h5>
+                  <ul class="text-uppercase list-unstyled">
+                      <li>
+                          <a href="#">men</a>
+                      </li>
+                      <li>
+                          <a href="#">women</a>
+                      </li>
+                      <li>
+                          <a href="#">boys</a>
+                      </li>
+                      <li>
+                          <a href="#">girls</a>
+                      </li>
+                      <li>
+                          <a href="#">new arrivals</a>
+                      </li>
+                      <li>
+                          <a href="#">shoes</a>
+                      </li>
+                      <li>
+                          <a href="#">cloths</a>
+                      </li>
+                  </ul>
+                </div>
+                <div class="footer-one col-lg-3 col-md-4 col-sm-12 mb-3 col-6">
+                  <h5 class="pb-2">Contact Us</h5>
+                  <div>
+                      <h6 class="text-uppercase">Address</h6>
+                      <p><address>123 STREET NAME, CITY, US</address></p>
+                  </div>
+                  <div>
+                      <h6 class="text-uppercase">Phone</h6>
+                      <p>(123) 456 09809</p>
+                  </div>
+                  <div>
+                      <h6 class="text-uppercase">Email</h6>
+                      <p>ahmedtasin1470@gmail.com</p>
+                  </div>
+                </div>
+                <div class="footer-one col-lg-3 col-md-4 col-sm-12 mb-3 col-6">
+                  <h5 class="pb-2">Instagram</h5>
+                  <div class="row">
+                      <img class="img-fluid w-25 h100 m-2" src="img/insta/1.jpg" alt="">
+                      <img class="img-fluid w-25 h100 m-2" src="img/insta/2.jpg" alt="">
+                      <img class="img-fluid w-25 h100 m-2" src="img/insta/3.jpg" alt="">
+                      <img class="img-fluid w-25 h100 m-2" src="img/insta/4.jpg" alt="">
+                      <img class="img-fluid w-25 h100 m-2" src="img/insta/5.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+            <div class="copyright mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img src="img/payment.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <p>Copyright &Copf; 2021 Ahmed Tasin</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+  <script>
+    var imgGalllery = document.getElementById('imgGalllery');
+    var smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick = function(){
+      imgGalllery.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+      imgGalllery.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+      imgGalllery.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+      imgGalllery.src = smallimg[3].src;
+    }
+  </script>
+
+</body>
+</html>
